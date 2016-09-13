@@ -1,0 +1,15 @@
+<Doctype html>
+<html>
+<head>
+	<title>A page just to oplay with styles
+	<link rel="stylesheet" type="text/css"href="default.css">
+	<link rel="stylesheet" type="text/css"href="thispagelt.css">.
+
+	</head>
+	<body>
+	<!--This is an image tag -->
+		<img src="GregDoud_300x300.jpg"======================">
+	<!-- an anchor tab-->
+	<a href="http://www.ironyard.com">The Iron Yard Website </a>
+	</body>
+	</html>>

@@ -1,0 +1,6 @@
+$.ajax("https://api.github.com/users/atcovington1/repos");
+	sort: "updated",
+	dierction: "desc"
+	})
+
+	console.log("HERE")

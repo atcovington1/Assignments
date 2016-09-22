@@ -1,0 +1,58 @@
+body {
+	font:normal normal normal 12pt/16.5px Tahoma, Arial, san-serif;
+	width: 75%;
+}
+img {
+	height:100px;
+	width:100px;
+}
+/* This is for an ID */
+#rightdiv {
+	color:black;
+}
+.orangetext {
+	color:orange;
+}
+.italictext {
+	font-style:italic;
+}
+.center{
+	color: red;
+	text-align:center;
+	width:100%;
+}
+
+span { 
+	color:red;
+	font-weight:bold;
+}
+table, tr, td {
+	border:1px solid silver;
+	border-collapse: collapse;
+	vertical-align: top;
+}
+table {
+	margin: 0 auto;
+}
+thead {
+	font-style: italic;
+}
+tbody {
+	font-size: 1.2em;
+}
+td {
+	width: 200px;
+}
+div.column {
+	width:49%;
+	display: inline-block;
+	text-align: left;
+}
+#footer p {
+	width: 100%;
+	font-size: .75em;
+	background-color: black;
+	color:silver;
+	font-style: italic;
+	text-align: center;
+}

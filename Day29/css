@@ -1,0 +1,22 @@
+body {
+    font-family: helvetica, arial, verdana, sans-serif;
+}
+input {
+	font-size: 2.4em;
+	background-color: transparent;
+	text-align: center;
+	border-width: 0;
+	width: 100%;
+	margin: 0 0 .1em 0;
+	color: #fff;
+}
+button {
+	/* basics */
+	color: #444;
+	background-color: #B5B198;
+	/* rounded corners */
+    -webkit-border-radius: 6px;
+          border-radius: 6px; 
+    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+	font-weight: bold;
+}

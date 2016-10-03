@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Consuming REST web service in Javascript</title>
+	<link src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="http://code.jquery.com/jquery-3.1.0.min.js"></script>
+	<script type="text/javascript"></script>
+
+	<script>
+
+		$(document).ready(function() {
+
+			$.ajax({
+        		url: "http://localhost:8080/student"
+    		}).then(function(data) {
+    			//console.log(data);
+    			refresh(data);
+    		});
+
+
+
+		}); <!-- end ready -->
+
+		function refresh(students) {
+			console.log(students);
+			var bdy = $("#ibody");
+			for (var i =0; i< students.length; ++i ) {
+				var student	= students[i];
+				var item = $("<tr><td>" + student.id + "</td><td>" + student.first_name +"</td><td>" + student.last_name +"</td><td>" + student.major_id + "</td><td>" + student.gpa + "</td></tr>");
+				bdy.append(item);
+			}
+		};
+
+	</script>
+
+	<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+	
+
+		<table id ="itable">
+ 			<tr><th>ID</th><th> FIRST </th><th> LAST </th><th> Major ID </th><th> GPA </th></tr>
+		</thead>
+		<tbody id="ibody">
+		</tbody>
+	</table>
+</table>
+</body>
+</html>

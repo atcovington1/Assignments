@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UYF-8">
+	<title>A JavaScript review</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<script src="http://code.jquery.com/jquery-3.1.0.min.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js" type="text/javascript"></script>
+
+	<script scr="index.js" type="text/JavaScript">
+		var aVariable = 1;
+		var aString = "ABC";
+		var anArray =['a', 'b', 'c'];
+		var anObject = {a: '1', b: '2', c: '3'};
+		function aFunction(p1, p2, p3) {
+
+		}
+		var anotherFunction = function(p1, p2, p3) {
+		returnp1+p2+p3;
+		}
+		var abc = anotherFunction("A","B","c");
+		function btnClick(){
+			var textValue = document.getElementbyId("theText").value;
+			console.log(textValue);
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id="theText" value= "ABC">
+	<button onclick = "btnClick()">Get Text</button>
+</body>
+</html>

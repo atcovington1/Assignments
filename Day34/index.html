@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html ng-app="ZMod">
+<head>
+	<meta charset = "UTF-8">
+	<title>Demo Into Angular</title>
+
+<!-- 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+
+	<script src="http://code.jquery.com/jquery-3.1.0.min.js" type="text/javascript"></script>
+ -->
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.js" type="text/javascript"></script>
+
+	<!--<script scr="index.js" type="text/javascript"></script>	-->
+	<script type="text/javascript">
+		angular.module("ZMod", [])
+			.controller("ZCtrl", [function() {
+				var self = this;
+				self.name = "Aisha";
+			}]);
+	</script>
+</head>
+<body ng-controller="ZCtrl as ctrl">
+	<!-- <h1>Angular controller is {{ctrl.about}}</h1> -->
+	<h3>Angular controller is {{2*3}} name is {{ctrl.name}}</h3>
+	<button >Change About</button>
+	<p />
+
+
+</body>
+</html>

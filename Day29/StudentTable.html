@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)file:///C:/Assignments/929/practice929.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+	<title>Consuming REST web service in Javascript</title>
+	<link src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="./StudentTable_files/jquery-3.1.0.min.js.download"></script>
+	<script type="text/javascript"></script>
+
+	<script>
+
+		$(document).ready(function() {
+
+			$.ajax({
+        		url: "http://localhost:8080/student"
+    		}).then(function(data) {
+    			//console.log(data);
+    			refresh(data);
+    		});
+
+
+
+		}); <!-- end ready -->
+
+		function refresh(students) {
+			console.log(students);
+			var bdy = $("#ibody");
+			for (var i =0; i< students.length; ++i ) {
+				var student	= students[i];
+				var item = $("<tr><td>" + student.id + "</td><td>" + student.first_name +"</td><td>" + student.last_name +"</td><td>" + student.major_id + "</td><td>" + student.gpa + "</td></tr>");
+				bdy.append(item);
+			}
+		};
+
+	</script>
+
+	<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+</style>
+</head>
+<body>
+	
+
+		<table id="itable">
+ 			<tbody><tr><th>ID</th><th> FIRST </th><th> LAST </th><th> Major ID </th><th> GPA </th></tr>
+		
+		</tbody><tbody id="ibody">
+		<tr><td>100</td><td>Eric</td><td>Ephram</td><td>1</td><td>3</td></tr><tr><td>110</td><td>Greg</td><td>Gould</td><td>7</td><td>2.5</td></tr><tr><td>120</td><td>Adam</td><td>Ant</td><td>3</td><td>3.2</td></tr><tr><td>130</td><td>Howard</td><td>Hess</td><td>2</td><td>3.7</td></tr><tr><td>140</td><td>Charles</td><td>Caldwell</td><td>6</td><td>2.1</td></tr><tr><td>150</td><td>James</td><td>Joyce</td><td>5</td><td>2.5</td></tr><tr><td>160</td><td>Doug</td><td>Dumas</td><td>4</td><td>3.1</td></tr><tr><td>170</td><td>Kevin</td><td>Kraft</td><td>1</td><td>2.7</td></tr><tr><td>180</td><td>Frank</td><td>Fountain</td><td>5</td><td>2.5</td></tr><tr><td>190</td><td>Brian</td><td>Biggs</td><td>3</td><td>2.3</td></tr><tr><td>192</td><td>Aisha</td><td>Covington</td><td>1</td><td>4</td></tr><tr><td>193</td><td>Aisha</td><td>Covington</td><td>2</td><td>2.5</td></tr><tr><td>194</td><td>Peppi</td><td>Covington</td><td>2</td><td>3.4</td></tr><tr><td>195</td><td>Aisha</td><td>Covington</td><td>1</td><td>3.5</td></tr><tr><td>196</td><td>Aisha</td><td>Covington</td><td>1</td><td>3.8</td></tr></tbody>
+	</table>
+
+
+</body></html>

@@ -1,83 +1,83 @@
-h1 {font-size: 4em;
-	font-family: "Comic Sans MS", cursive, sans-serif  ;
-	font-weight: bold   ;
-	font-style: italic;
-	color: purple;
-	text-align: center;
+
+
+
+
 	
-
-}
-body {
-    font-family: "Comic Sans MS", cursive, sans-serif  ;
-    background-color: rgb(215, 148, 213);
-}
-p1 { 
-	font-size: 2em;
-	font-family: "Comic Sans MS", cursive, sans-serif  ;
-	color: navy;
-	text-decoration: underline;
-	font-weight: bold;
 	
- }
- p2 {
- 	font-size: 2em;
- 	font-family: "Comic Sans MS", cursive, sans-serif  ;
- 	color: navy;
-
- }
-#msgbox {
-	font-size: 1em;
-	background-color:;
-	text-align: left;
-	margin: 5 5 .5em 5;
-	width: 600px;
-	height: 300px;
-	color: purple;
-
-}
-button {
 	/* basics */
-	color: purple;
-	background-color: #808080;
 	/* rounded corners */
-    -webkit-border-radius: 8px;
+	background-color: #808080;
+	background-color:;
+	color: navy;
+	color: purple;
+	color: purple;
+	color: purple;
+	display: inline-block;
+	display: inline-block;
+	float: left;
+	float: right;
+	font-family: "Comic Sans MS", cursive, sans-serif  ;
+	font-family: "Comic Sans MS", cursive, sans-serif  ;
+	font-size: 1em;
+	font-size: 2em;
+	font-style: italic;
+	font-weight: bold   ;
+	font-weight: bold;
+	font-weight: bold; font-size: 1em;
+	height: 300px;
+	height: 500px;
+	margin: 5 5 .5em 5;
+	text-align: center;
+	text-align: left;
+	text-decoration: underline;
+	width: 49%;
+	width: 600px;
+	width: 750px;
+ 	color: navy;
+ 	font-family: "Comic Sans MS", cursive, sans-serif  ;
+ 	font-size: 2em;
           border-radius: 8px; 
     -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
-	font-weight: bold; font-size: 1em;
-}
-#channelsDiv {
-	float: left;
-	width: 49%;
-	display: inline-block;
-    text-align: left;
-    vertical-align: text-top;
+    -webkit-border-radius: 8px;
     ;
-
-}
-#box {
-	float: right;
-	width: 750px;
-	height: 500px;
-	display: inline-block;
+    background-color: lightgrey;
+    background-color: rgb(215, 148, 213);
+    border: 15px solid navy;
+    color: yellow;
+    font-family: "Comic Sans MS", cursive, sans-serif  ;
+    margin: 25px;
+    padding: 25px;
+    text-align: left;
     text-align: left;
     vertical-align: text-top;
-    color: yellow;
-    background-color: lightgrey;
-    border: 15px solid navy;
-    padding: 25px;
-    margin: 25px;
-}
-textarea
-{
-float :center;
-font-color: purple;
-width: 400px
-height: 200px;
+    vertical-align: text-top;
+ p2 {
+ }
+ }
+#box {
+#channelsDiv {
+#msgbox {
+body {
 border-radius: 3px;
 border: 1px solid #CCC;
-padding: 8px;
-font-weight: 200;
-font-size: 15px;
-font-family: Verdana;
 box-shadow: 1px 1px 5px #CCC;
+button {
+float :center;
+font-color: purple;
+font-family: Verdana;
+font-size: 15px;
+font-weight: 200;
+h1 {font-size: 4em;
+height: 200px;
+p1 { 
+padding: 8px;
+textarea
+width: 400px
+{
+}
+}
+}
+}
+}
+}
 }

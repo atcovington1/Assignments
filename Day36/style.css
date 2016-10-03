@@ -1,0 +1,83 @@
+h1 {font-size: 4em;
+	font-family: "Comic Sans MS", cursive, sans-serif  ;
+	font-weight: bold   ;
+	font-style: italic;
+	color: purple;
+	text-align: center;
+	
+
+}
+body {
+    font-family: "Comic Sans MS", cursive, sans-serif  ;
+    background-color: rgb(215, 148, 213);
+}
+p1 { 
+	font-size: 2em;
+	font-family: "Comic Sans MS", cursive, sans-serif  ;
+	color: navy;
+	text-decoration: underline;
+	font-weight: bold;
+	
+ }
+ p2 {
+ 	font-size: 2em;
+ 	font-family: "Comic Sans MS", cursive, sans-serif  ;
+ 	color: navy;
+
+ }
+#msgbox {
+	font-size: 1em;
+	background-color:;
+	text-align: left;
+	margin: 5 5 .5em 5;
+	width: 600px;
+	height: 300px;
+	color: purple;
+
+}
+button {
+	/* basics */
+	color: purple;
+	background-color: #808080;
+	/* rounded corners */
+    -webkit-border-radius: 8px;
+          border-radius: 8px; 
+    -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+	font-weight: bold; font-size: 1em;
+}
+#channelsDiv {
+	float: left;
+	width: 49%;
+	display: inline-block;
+    text-align: left;
+    vertical-align: text-top;
+    ;
+
+}
+#box {
+	float: right;
+	width: 750px;
+	height: 500px;
+	display: inline-block;
+    text-align: left;
+    vertical-align: text-top;
+    color: yellow;
+    background-color: lightgrey;
+    border: 15px solid navy;
+    padding: 25px;
+    margin: 25px;
+}
+textarea
+{
+float :center;
+font-color: purple;
+width: 400px
+height: 200px;
+border-radius: 3px;
+border: 1px solid #CCC;
+padding: 8px;
+font-weight: 200;
+font-size: 15px;
+font-family: Verdana;
+box-shadow: 1px 1px 5px #CCC;
+}

@@ -1,14 +1,14 @@
 
  <table class="table table-striped table-bordered table-hover table-condensed" >
  <tr>  <h1><td>ID</td>  <td>First Name</td>  <td>Last Name</td> <td>GPA</td> 
-             <td>Major ID</td><td></td></tr></h1>
+             <td>SAT</td><td></td></tr></h1>
 <tr ng-repeat="student in ctrl.students" ng-show="student.vis">
 
    <td> {{student.id}}  </td>
    <td> {{student.first_name}}  </td>
    <td>{{student.last_name}}</td>
    <td> {{student.gpa}}  </td>
-   <td> {{student.major_id}}  </td><span class="glyphicons glyphicons-eye-close"></span><td><button ng-click="ctrl.hide(student.id)">Hide</button></td>
+   <td> {{student.sat}}  </td><span class="glyphicons glyphicons-eye-close"></span><td><button ng-click="ctrl.hide(student.id)">Hide</button></td>
 
    
 </tr>
